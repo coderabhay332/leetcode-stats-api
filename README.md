@@ -75,3 +75,12 @@ Serves the Apache Tomcat servlet container on http://localhost:8080.
 #### `mvn test`
 
 Runs all the tests.
+
+## By using Docker
+
+first build the docker image
+
+### docker build -t <ANY_TAG_NAME> .
+
+run the docker container
+### docker run -d -p 8080:8080 <ANY_TAG_NAME>
